@@ -1,0 +1,20 @@
+#%Module
+module-whatis	 "Loads bedtools/2.31.1 module.
+
+This module was built on Fri Oct 25 07:17:26 PM EDT 2024
+
+bedtools
+
+The script used to build this module can be found here: https://github.com/northeastern-rc-software-modules/bedtools-2.31.1
+
+To load the module, type:
+module load bedtools/2.31.1
+
+"
+
+conflict	 bedtools
+prepend-path	 PATH /shared/EL9/explorer/bedtools/2.31.1/src/bedtools2/bin
+prepend-path       LIBRARY_PATH /shared/EL9/explorer/bedtools/2.31.1/src/bedtools2/lib
+prepend-path       LD_LIBRARY_PATH /shared/EL9/explorer/bedtools/2.31.1/src/bedtools2/lib
+prepend-path       CPATH /shared/EL9/explorer/bedtools/2.31.1/src/bedtools2/include
+prepend-path       BCFTOOLS_PLUGINS /shared/EL9/explorer/bedtools/2.31.1/src/bedtools2/src/bcftools-1.21/plugins
