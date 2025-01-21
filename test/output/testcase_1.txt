@@ -1,0 +1,14 @@
+========================================================
+Job Name: bedtools_testcase_1
+Job ID: 6059
+Job Node: d1027
+Start Time: Mon Jan 20 11:56:26 PM EST 2025
+========================================================
+Step 1: Loading bedtools module and verifying version
+Step 1 Completed: bedtools module loaded successfully.
+bedtools Version:
+bedtools v2.31.1
+========================================================
+Exiting Compute Node: d1027
+End Time: Mon Jan 20 11:56:26 PM EST 2025
+========================================================

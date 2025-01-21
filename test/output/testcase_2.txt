@@ -1,0 +1,15 @@
+========================================================
+Job Name: bedtools_testcase_2
+Job ID: 6060
+Job Node: d0018
+Start Time: Mon Jan 20 11:56:26 PM EST 2025
+========================================================
+Step 1: Creating test BED files
+Step 2: Testing bedtools intersect functionality
+Step 2 Completed: Intersection operation successful
+Intersection results:
+chr1	150	200	feature1	1	+
+========================================================
+Exiting Compute Node: d0018
+End Time: Mon Jan 20 11:56:26 PM EST 2025
+========================================================

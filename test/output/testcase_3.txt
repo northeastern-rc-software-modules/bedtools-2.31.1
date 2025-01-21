@@ -1,0 +1,25 @@
+========================================================
+Job Name: bedtools_testcase_3
+Job ID: 6061
+Job Node: d0023
+Start Time: Mon Jan 20 11:56:26 PM EST 2025
+========================================================
+Step 1: Creating test BED file for genome coverage
+Step 2: Testing bedtools genomecov functionality
+Error: chromosome  chr1 is not in the genome file output/genome.txt. Exiting.
+Error: chromosome  chr2 is not in the genome file output/genome.txt. Exiting.
+Step 2 Completed: Genome coverage calculation successful
+Coverage results:
+chr1	0	900	1000	0.9
+chr1	1	100	1000	0.1
+ chr1	0	2147483547	2147483647	1
+ chr1	1	100	2147483647	4.65661e-08
+ chr2	0	2147483547	2147483647	1
+ chr2	1	100	2147483647	4.65661e-08
+chr2	0	1000	1000	1
+genome	0	1698	2000	0.849
+genome	1	300	2000	0.15
+========================================================
+Exiting Compute Node: d0023
+End Time: Mon Jan 20 11:57:26 PM EST 2025
+========================================================
